@@ -20,14 +20,13 @@ class Popover: NSView {
 			return
 		}
 		
-		// Set custom colour for the view - in this case the popover
 		let backgroundView = NSView(frame: frameView.bounds)
 		backgroundView.wantsLayer = true
 		backgroundView.layer?.backgroundColor = NSColor(red: 0.21, green: 0.24, blue: 0.28, alpha: 1).cgColor
-		backgroundView.autoresizingMask = [.width, .height]
+		backgroundView.autoresizingMask = [.viewWidthSizable, .viewHeightSizable]
 		
 		frameView.addSubview(backgroundView, positioned: .below, relativeTo: frameView)
 		
 	}
-    
+	
 }
