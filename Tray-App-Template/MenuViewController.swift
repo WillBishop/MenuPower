@@ -16,6 +16,6 @@ class MenuViewController: NSViewController {
 	
 	// This is linked up to the "Quit Button" in the MenuViewController.xib
     @IBAction func quit(_ sender: NSButton) {
-        NSApplication.shared().terminate(self)
+        NSApplication.shared.terminate(self)
     }
 }
