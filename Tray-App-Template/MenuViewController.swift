@@ -10,12 +10,12 @@ import Cocoa
 
 class MenuViewController: NSViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  }
 	
 	// This is linked up to the "Quit Button" in the MenuViewController.xib
-    @IBAction func quit(_ sender: NSButton) {
-        NSApplication.shared.terminate(self)
-    }
+  @IBAction func quit(_ sender: NSButton) {
+    NSApplication.shared.terminate(self)
+  }
 }

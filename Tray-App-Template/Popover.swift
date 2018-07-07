@@ -10,9 +10,9 @@ import Cocoa
 
 class Popover: NSView {
 
-    override func draw(_ dirtyRect: NSRect) {
-        super.draw(dirtyRect)
-    }
+  override func draw(_ dirtyRect: NSRect) {
+    super.draw(dirtyRect)
+  }
 	
 	override func viewDidMoveToWindow() {
 		
