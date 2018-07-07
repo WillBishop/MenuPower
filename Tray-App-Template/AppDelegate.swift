@@ -38,6 +38,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 	func applicationDidFinishLaunching(_ notification: Notification) {
 		if let button = statusItem.button {
 			button.image = NSImage(named: NSImage.Name(rawValue: "icon"))
+			button.image?.isTemplate = true 
 			button.target = self
 			button.action = #selector(self.togglePopover(sender:))
 		}
