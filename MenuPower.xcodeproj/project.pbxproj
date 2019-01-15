@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15D5B93ED621EB02B0F56517 /* Pods_Tray_App_Template.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E9D7F8FF4A109A14106C37D /* Pods_Tray_App_Template.framework */; };
 		A12B017C1EF661A2001B2A03 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B017B1EF661A2001B2A03 /* Popover.swift */; };
 		A15B503B1E909EBB005D1257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B503A1E909EBB005D1257 /* AppDelegate.swift */; };
 		A15B503F1E909EBB005D1257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15B503E1E909EBB005D1257 /* Assets.xcassets */; };
 		A15B504B1E909F0E005D1257 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15B50491E909F0E005D1257 /* MainMenu.xib */; };
 		A15B504E1E909F31005D1257 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B504C1E909F31005D1257 /* MenuViewController.swift */; };
 		A15B504F1E909F31005D1257 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15B504D1E909F31005D1257 /* MenuViewController.xib */; };
+		EA79DFA9E3B86081D2F25BA2 /* Pods_MenuPower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33373083268C4D91796886F /* Pods_MenuPower.framework */; };
 		EDAE2CA921EDC80B0003FE97 /* battery.sh in Resources */ = {isa = PBXBuildFile; fileRef = EDAE2CA821EDC80B0003FE97 /* battery.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DC9E081584848DA262FED27 /* Pods-Tray-App-Template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tray-App-Template.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tray-App-Template/Pods-Tray-App-Template.release.xcconfig"; sourceTree = "<group>"; };
-		9E9D7F8FF4A109A14106C37D /* Pods_Tray_App_Template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tray_App_Template.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C9133B1702C787A26F85B8 /* Pods-MenuPower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuPower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MenuPower/Pods-MenuPower.debug.xcconfig"; sourceTree = "<group>"; };
+		4D1C840A614BA74A2FE80A91 /* Pods-MenuPower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuPower.release.xcconfig"; path = "Pods/Target Support Files/Pods-MenuPower/Pods-MenuPower.release.xcconfig"; sourceTree = "<group>"; };
 		A12B017B1EF661A2001B2A03 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
-		A15B50371E909EBB005D1257 /* Tray-App-Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tray-App-Template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15B50371E909EBB005D1257 /* MenuPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15B503A1E909EBB005D1257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A15B503E1E909EBB005D1257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A15B50431E909EBB005D1257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15B504A1E909F0E005D1257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A15B504C1E909F31005D1257 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		A15B504D1E909F31005D1257 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
-		B36911ACA1F2899773C4E561 /* Pods-Tray-App-Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tray-App-Template.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tray-App-Template/Pods-Tray-App-Template.debug.xcconfig"; sourceTree = "<group>"; };
+		D33373083268C4D91796886F /* Pods_MenuPower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MenuPower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAE2CA821EDC80B0003FE97 /* battery.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = battery.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,32 +37,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15D5B93ED621EB02B0F56517 /* Pods_Tray_App_Template.framework in Frameworks */,
+				EA79DFA9E3B86081D2F25BA2 /* Pods_MenuPower.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19DA338CB881A28DA4ECBBDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D33373083268C4D91796886F /* Pods_MenuPower.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A15B502E1E909EBB005D1257 = {
 			isa = PBXGroup;
 			children = (
-				A15B50391E909EBB005D1257 /* Tray-App-Template */,
+				A15B50391E909EBB005D1257 /* MenuPower */,
 				A15B50381E909EBB005D1257 /* Products */,
-				BED57FE4182D7808E2410B12 /* Pods */,
-				DC444A6334261026BABE0201 /* Frameworks */,
+				E5C3D2A30A6F148C01B53610 /* Pods */,
+				19DA338CB881A28DA4ECBBDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A15B50381E909EBB005D1257 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A15B50371E909EBB005D1257 /* Tray-App-Template.app */,
+				A15B50371E909EBB005D1257 /* MenuPower.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A15B50391E909EBB005D1257 /* Tray-App-Template */ = {
+		A15B50391E909EBB005D1257 /* MenuPower */ = {
 			isa = PBXGroup;
 			children = (
 				EDAE2CA821EDC80B0003FE97 /* battery.sh */,
@@ -74,47 +82,39 @@
 				A15B50491E909F0E005D1257 /* MainMenu.xib */,
 				A15B50431E909EBB005D1257 /* Info.plist */,
 			);
-			path = "Tray-App-Template";
+			path = MenuPower;
 			sourceTree = "<group>";
 		};
-		BED57FE4182D7808E2410B12 /* Pods */ = {
+		E5C3D2A30A6F148C01B53610 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B36911ACA1F2899773C4E561 /* Pods-Tray-App-Template.debug.xcconfig */,
-				0DC9E081584848DA262FED27 /* Pods-Tray-App-Template.release.xcconfig */,
+				10C9133B1702C787A26F85B8 /* Pods-MenuPower.debug.xcconfig */,
+				4D1C840A614BA74A2FE80A91 /* Pods-MenuPower.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		DC444A6334261026BABE0201 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9E9D7F8FF4A109A14106C37D /* Pods_Tray_App_Template.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A15B50361E909EBB005D1257 /* Tray-App-Template */ = {
+		A15B50361E909EBB005D1257 /* MenuPower */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A15B50461E909EBB005D1257 /* Build configuration list for PBXNativeTarget "Tray-App-Template" */;
+			buildConfigurationList = A15B50461E909EBB005D1257 /* Build configuration list for PBXNativeTarget "MenuPower" */;
 			buildPhases = (
-				93D2EE1576E4BFE41E616F6F /* [CP] Check Pods Manifest.lock */,
+				5D62256E41F46349549FA13F /* [CP] Check Pods Manifest.lock */,
 				A15B50331E909EBB005D1257 /* Sources */,
 				A15B50341E909EBB005D1257 /* Frameworks */,
 				A15B50351E909EBB005D1257 /* Resources */,
-				B8E7FBC7CDC83A2429D0CD43 /* [CP] Embed Pods Frameworks */,
 				EDAE2CA721EDC7E80003FE97 /* ShellScript */,
+				7CDE60B0735E921EF6666E06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Tray-App-Template";
+			name = MenuPower;
 			productName = HarvardGenerator;
-			productReference = A15B50371E909EBB005D1257 /* Tray-App-Template.app */;
+			productReference = A15B50371E909EBB005D1257 /* MenuPower.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A15B50321E909EBB005D1257 /* Build configuration list for PBXProject "Tray-App-Template" */;
+			buildConfigurationList = A15B50321E909EBB005D1257 /* Build configuration list for PBXProject "MenuPower" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A15B50361E909EBB005D1257 /* Tray-App-Template */,
+				A15B50361E909EBB005D1257 /* MenuPower */,
 			);
 		};
 /* End PBXProject section */
@@ -168,7 +168,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		93D2EE1576E4BFE41E616F6F /* [CP] Check Pods Manifest.lock */ = {
+		5D62256E41F46349549FA13F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -179,20 +179,20 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Tray-App-Template-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MenuPower-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B8E7FBC7CDC83A2429D0CD43 /* [CP] Embed Pods Frameworks */ = {
+		7CDE60B0735E921EF6666E06 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Tray-App-Template/Pods-Tray-App-Template-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-MenuPower/Pods-MenuPower-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LaunchAtLogin/LaunchAtLogin.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -201,7 +201,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tray-App-Template/Pods-Tray-App-Template-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MenuPower/Pods-MenuPower-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EDAE2CA721EDC7E80003FE97 /* ShellScript */ = {
@@ -209,11 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-			);
-			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
@@ -358,14 +354,14 @@
 		};
 		A15B50471E909EBB005D1257 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B36911ACA1F2899773C4E561 /* Pods-Tray-App-Template.debug.xcconfig */;
+			baseConfigurationReference = 10C9133B1702C787A26F85B8 /* Pods-MenuPower.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = D8D2NQ6572;
-				INFOPLIST_FILE = "Tray-App-Template/Info.plist";
+				INFOPLIST_FILE = MenuPower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.willbishop.MenuPower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -377,14 +373,14 @@
 		};
 		A15B50481E909EBB005D1257 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DC9E081584848DA262FED27 /* Pods-Tray-App-Template.release.xcconfig */;
+			baseConfigurationReference = 4D1C840A614BA74A2FE80A91 /* Pods-MenuPower.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = D8D2NQ6572;
-				INFOPLIST_FILE = "Tray-App-Template/Info.plist";
+				INFOPLIST_FILE = MenuPower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.willbishop.MenuPower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -397,7 +393,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A15B50321E909EBB005D1257 /* Build configuration list for PBXProject "Tray-App-Template" */ = {
+		A15B50321E909EBB005D1257 /* Build configuration list for PBXProject "MenuPower" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A15B50441E909EBB005D1257 /* Debug */,
@@ -406,7 +402,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A15B50461E909EBB005D1257 /* Build configuration list for PBXNativeTarget "Tray-App-Template" */ = {
+		A15B50461E909EBB005D1257 /* Build configuration list for PBXNativeTarget "MenuPower" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A15B50471E909EBB005D1257 /* Debug */,
