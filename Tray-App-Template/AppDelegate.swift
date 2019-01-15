@@ -119,3 +119,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return  String(data: data, encoding: String.Encoding.utf8)
     }
 }
+
+
+
