@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A12B017C1EF661A2001B2A03 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B017B1EF661A2001B2A03 /* Popover.swift */; };
 		A15B503B1E909EBB005D1257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B503A1E909EBB005D1257 /* AppDelegate.swift */; };
 		A15B503F1E909EBB005D1257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15B503E1E909EBB005D1257 /* Assets.xcassets */; };
 		A15B504B1E909F0E005D1257 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15B50491E909F0E005D1257 /* MainMenu.xib */; };
-		A15B504E1E909F31005D1257 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B504C1E909F31005D1257 /* MenuViewController.swift */; };
-		A15B504F1E909F31005D1257 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15B504D1E909F31005D1257 /* MenuViewController.xib */; };
 		EA79DFA9E3B86081D2F25BA2 /* Pods_MenuPower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33373083268C4D91796886F /* Pods_MenuPower.framework */; };
 		EDAE2CA921EDC80B0003FE97 /* battery.sh in Resources */ = {isa = PBXBuildFile; fileRef = EDAE2CA821EDC80B0003FE97 /* battery.sh */; };
 /* End PBXBuildFile section */
@@ -20,16 +17,14 @@
 /* Begin PBXFileReference section */
 		10C9133B1702C787A26F85B8 /* Pods-MenuPower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuPower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MenuPower/Pods-MenuPower.debug.xcconfig"; sourceTree = "<group>"; };
 		4D1C840A614BA74A2FE80A91 /* Pods-MenuPower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuPower.release.xcconfig"; path = "Pods/Target Support Files/Pods-MenuPower/Pods-MenuPower.release.xcconfig"; sourceTree = "<group>"; };
-		A12B017B1EF661A2001B2A03 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
 		A15B50371E909EBB005D1257 /* MenuPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15B503A1E909EBB005D1257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A15B503E1E909EBB005D1257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A15B50431E909EBB005D1257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15B504A1E909F0E005D1257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		A15B504C1E909F31005D1257 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		A15B504D1E909F31005D1257 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		D33373083268C4D91796886F /* Pods_MenuPower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MenuPower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAE2CA821EDC80B0003FE97 /* battery.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = battery.sh; sourceTree = "<group>"; };
+		EDAE2CAA21EDCA640003FE97 /* MenuPower.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenuPower.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +68,9 @@
 		A15B50391E909EBB005D1257 /* MenuPower */ = {
 			isa = PBXGroup;
 			children = (
+				EDAE2CAA21EDCA640003FE97 /* MenuPower.entitlements */,
 				EDAE2CA821EDC80B0003FE97 /* battery.sh */,
 				A15B503A1E909EBB005D1257 /* AppDelegate.swift */,
-				A15B504C1E909F31005D1257 /* MenuViewController.swift */,
-				A15B504D1E909F31005D1257 /* MenuViewController.xib */,
-				A12B017B1EF661A2001B2A03 /* Popover.swift */,
 				A15B503E1E909EBB005D1257 /* Assets.xcassets */,
 				A15B50491E909F0E005D1257 /* MainMenu.xib */,
 				A15B50431E909EBB005D1257 /* Info.plist */,
@@ -105,8 +98,8 @@
 				A15B50331E909EBB005D1257 /* Sources */,
 				A15B50341E909EBB005D1257 /* Frameworks */,
 				A15B50351E909EBB005D1257 /* Resources */,
-				EDAE2CA721EDC7E80003FE97 /* ShellScript */,
 				7CDE60B0735E921EF6666E06 /* [CP] Embed Pods Frameworks */,
+				EDAE2CA721EDC7E80003FE97 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,6 +125,14 @@
 						DevelopmentTeam = D8D2NQ6572;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -160,7 +161,6 @@
 			files = (
 				EDAE2CA921EDC80B0003FE97 /* battery.sh in Resources */,
 				A15B503F1E909EBB005D1257 /* Assets.xcassets in Resources */,
-				A15B504F1E909F31005D1257 /* MenuViewController.xib in Resources */,
 				A15B504B1E909F0E005D1257 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,8 +224,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15B504E1E909F31005D1257 /* MenuViewController.swift in Sources */,
-				A12B017C1EF661A2001B2A03 /* Popover.swift in Sources */,
 				A15B503B1E909EBB005D1257 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,10 +355,12 @@
 			baseConfigurationReference = 10C9133B1702C787A26F85B8 /* Pods-MenuPower.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MenuPower/MenuPower.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = D8D2NQ6572;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = MenuPower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.willbishop.MenuPower;
@@ -376,10 +376,12 @@
 			baseConfigurationReference = 4D1C840A614BA74A2FE80A91 /* Pods-MenuPower.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MenuPower/MenuPower.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = D8D2NQ6572;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = MenuPower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.willbishop.MenuPower;
