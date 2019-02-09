@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9EE5E0EC5E49D50B8CBEF9221196CCC"
-               BuildableName = "Pods_Tray_App_Template.framework"
-               BlueprintName = "Pods-Tray-App-Template"
+               BlueprintIdentifier = "0D0FB7D7CEE394C32D6E58D674CB28D9"
+               BuildableName = "Pods_MenuPower.framework"
+               BlueprintName = "Pods-MenuPower"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9EE5E0EC5E49D50B8CBEF9221196CCC"
-            BuildableName = "Pods_Tray_App_Template.framework"
-            BlueprintName = "Pods-Tray-App-Template"
+            BlueprintIdentifier = "0D0FB7D7CEE394C32D6E58D674CB28D9"
+            BuildableName = "Pods_MenuPower.framework"
+            BlueprintName = "Pods-MenuPower"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

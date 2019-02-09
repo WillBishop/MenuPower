@@ -1,7 +1,7 @@
-# Swift Menubar Template
+# MenuPower
 
-A Swift 4 menubar template for OSX. 
+MenuPower is an app to show your AirPods (or other supported Bluetooth peripherals) battery in the status bar.
 
-<img src="http://i.imgur.com/NXP0JVk.png" alt="menubar-template" width="300">
+Upon connecting your AirPods you get a notification to show you the battery of them.
 
-Open .xcodeproj and run.
+![AirPods Battery](https://i.gyazo.com/901dff150e048f11920d375c26a25148.mp4)
