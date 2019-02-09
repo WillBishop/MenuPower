@@ -4,4 +4,4 @@ MenuPower is an app to show your AirPods (or other supported Bluetooth periphera
 
 Upon connecting your AirPods you get a notification to show you the battery of them.
 
-![AirPods Battery](https://i.gyazo.com/901dff150e048f11920d375c26a25148.mp4)
+![AirPods Battery](https://i.gyazo.com/901dff150e048f11920d375c26a25148.gif)
